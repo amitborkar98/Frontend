@@ -1,0 +1,29 @@
+.title {
+    font-family: 'Montez', cursive; 
+    font-size: 50px;
+    color: blue;
+    margin: auto;
+    text-decoration: none;
+    margin: 10px 10px 0px 10px;    
+    }
+
+   
+.description{ 
+    font-family: 'Ubuntu Mono', monospace;
+    margin-top: 0;
+    margin: 0 0 0px 10px;
+    font-size: 20px;
+    }
+
+input.topButtons {
+    width: 90px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 90%;
+    background: #0000ff;
+    color: #fff;
+    float: right;                  
+    margin: 10px 10px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
