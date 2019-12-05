@@ -3,6 +3,7 @@
 
 <head>
     <!-- TODO: Include Font Awesome file here -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <!-- TODO: Include Google Fonts file here -->
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/common.css">
@@ -12,16 +13,46 @@
 
 <body>
     <!-- TODO: Include all your code for the header and home page here -->
-    <div class="header"></div>
+    <div class="header">
         <input id="signin" class="topButtons" type="button" value="Sign In">
         <input id="signup" class="topButtons" type="button" value="Sign Up">
         <h1 class="title">ScriBBler</h1>
         <p class="description">Explore, Imagine, Create</p>
     </div>
+
     <div class = "middle">
         <button class="body-buttons" type="button">All Posts</button> 
         <button class="body-buttons" type="button">Create Post</button> 
-    </div>    
+    </div> 
+    
+    
+    <!-- The Modal -->
+    <div id="signup-modal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Get Started</h2>
+          <hr>
+        </div>  
+        <div class="container">
+          <form>
+            <label class="label-text">Name</label>
+            <input type="text" placeholder="Enter your name" required>
+              <label class="label-text">Username</label>
+              <input type="text" placeholder="Enter your Usename" required>
+              <label class="label-text">Password</label>
+              <input type="password" placeholder="Enter your password" required>
+              <label class="label-text">Confirm Password</label>
+              <input type="password" placeholder="Re-enter your password" required>
+              <input class="signup-btn" type="submit" value="Sign Up">
+            </form>  
+          </div>
+        </div>
+      </div>
+    
+
+    <script src="scripts/common.js"></script>   
 </body>
 
 </html>
