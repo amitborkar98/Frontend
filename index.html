@@ -21,8 +21,8 @@
     </div>
 
     <div class = "middle">
-        <button class="body-buttons" type="button">All Posts</button> 
-        <button class="body-buttons" type="button">Create Post</button> 
+        <button id="all" class="body-buttons" type="button">All Posts</button> 
+        <button id="create" class="body-buttons" type="button">Create Post</button> 
     </div> 
     
     
@@ -40,7 +40,7 @@
             <label class="label-text">Name</label>
             <input type="text" placeholder="Enter your name" required>
             <label class="label-text">Username</label>
-            <input type="text" placeholder="Enter your Usename" required>
+            <input type="text" placeholder="Enter your Username" required>
             <label class="label-text">Password</label>
             <input type="password" placeholder="Enter your password" required>
             <label class="label-text">Confirm Password</label>
@@ -51,22 +51,21 @@
         </div>
       </div>
 
-
-      <!-- The Signin Modal -->
+    <!-- The Signin Modal -->
     <div id="signin-modal" class="modal">
       <!-- Modal content -->
       <div class="signin-modal-content">
         <div class="modal-header">
           <span class="close">&times;</span>
-          <h2>Welcome Back</h2>
+          <h2>Welcome Back!</h2>
           <hr>
         </div>  
         <div class="container">
           <form>
             <label class="label-text">Username</label>
-            <input type="text" placeholder="Enter your Usename" required>
+            <input type="text" placeholder="Enter your username" required>
             <label class="label-text">Password</label>
-            <input type="text" placeholder="Enter your Password" required>
+            <input type="text" placeholder="Enter your password" required>
             <input class="btn" type="submit" value="Sign In">
           </form>  
         </div>
@@ -76,7 +75,32 @@
       </div>
     </div>
 
-    <script src="scripts/common.js"></script>   
+    <!-- The Post Modal -->
+    <div id="post-modal" class="modal">
+      <!-- Modal content -->
+      <div class="post-modal-content">
+        <div class="modal-header">
+          <span id="c" class="close">&times;</span>
+          <h2>Pen Your Post</h2>
+          <hr>
+        </div>  
+        <div class="container">
+          <form>
+            <label class="label-text">Title</label>
+            <input type="text" placeholder="Enter title of your post" required>
+            <label class="label-text">Contents</label>
+            <textarea rows="18" placeholder="Enter the contents of your post" required></textarea>
+            <div class="btn-container">
+              <input class="btn-create" type="submit" value="Create">
+            </div>  
+          </form>  
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts/common.js"></script>
+    <script src="scripts/index.js"></script>
+
 </body>
 
 </html>

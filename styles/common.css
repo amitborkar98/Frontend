@@ -41,7 +41,6 @@ input.topButtons {
   }
        
 .signup-modal-content {     
-  margin :  7% auto;
   padding: 20px;
   border: 1px solid #888;
   width: 25%; 
@@ -50,6 +49,10 @@ input.topButtons {
   color: #333;
   display: flex;
   flex-direction: column;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
    }
     
 .container {
@@ -119,20 +122,23 @@ input {
     }
        
 .signin-modal-content {     
-  margin :  10% auto;
   padding: 20px;
   border: 1px solid #888;
   width: 25%; 
   height: 50%;
   background-color: #fff;
   color: #333;
-    }    
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  }    
 
 .footer{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 25px;  
+  margin-top: 27px;  
     }
        
 #a{
