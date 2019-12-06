@@ -4,11 +4,20 @@
 <head>
     <!-- TODO: Include Font Awesome file here -->
     <!-- TODO: Include Google Fonts file here -->
+    <link rel="stylesheet" href="../styles/common.css">
+    <link rel="stylesheet" href="../styles/postlist.css">
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- TODO: Include code for header here -->
-
+    <div class="header">
+        <input id="signin" class="topButtons" type="button" value="Sign In">
+        <input id="signup" class="topButtons" type="button" value="Sign Up">
+        <h1 class="title">ScriBBler</h1>
+        <p id="desc" class="description">Explore, Imagine, Create</p>
+    </div>
     <!-- ATTENTION: The HTML code for the list of posts has been given to you. You can feel free to add/delete/modify this code. You need to write the proper CSS and JavaScript code corresponding to this page so that the result looks like the screenshots given to you in the Project Statement. -->
 
     <!-- list of all posts starts here -->
@@ -125,6 +134,86 @@
 
     </div>
     <!-- list of all posts ends here -->
+
+
+
+
+
+    <!-- The Signup Modal -->
+    <div id="signup-modal" class="modal">
+        <!-- Modal content -->
+        <div class="signup-modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Get Started</h2>
+            <hr>
+          </div>  
+          <div class="container">
+            <form>
+              <label class="label-text">Name</label>
+              <input type="text" placeholder="Enter your name" required>
+              <label class="label-text">Username</label>
+              <input type="text" placeholder="Enter your Username" required>
+              <label class="label-text">Password</label>
+              <input type="password" placeholder="Enter your password" required>
+              <label class="label-text">Confirm Password</label>
+              <input type="password" placeholder="Re-enter your password" required>
+              <input class="btn" type="submit" value="Sign Up">
+            </form>  
+           </div>
+          </div>
+        </div>
+  
+      <!-- The Signin Modal -->
+      <div id="signin-modal" class="modal">
+        <!-- Modal content -->
+        <div class="signin-modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Welcome Back!</h2>
+            <hr>
+          </div>  
+          <div class="container">
+            <form>
+              <label class="label-text">Username</label>
+              <input type="text" placeholder="Enter your username" required>
+              <label class="label-text">Password</label>
+              <input type="text" placeholder="Enter your password" required>
+              <input class="btn" type="submit" value="Sign In">
+            </form>  
+          </div>
+          <div class="footer">
+            <span id="a">Not a Member?</span> <span id="b">Sign Up</span>
+          </div>
+        </div>
+      </div>
+  
+      <!-- The Post Modal -->
+      <div id="post-modal" class="modal">
+        <!-- Modal content -->
+        <div class="post-modal-content">
+          <div class="modal-header">
+            <span id="c" class="close">&times;</span>
+            <h2>Pen Your Post</h2>
+            <hr>
+          </div>  
+          <div class="container">
+            <form>
+              <label class="label-text">Title</label>
+              <input type="text" placeholder="Enter title of your post" required>
+              <label class="label-text">Contents</label>
+              <textarea rows="18" placeholder="Enter the contents of your post" required></textarea>
+              <div class="btn-container">
+                <input class="btn-create" type="submit" value="Create">
+              </div>  
+            </form>  
+          </div>
+        </div>
+      </div>
+
+    <script src="../scripts/common.js"></script>
+    <script src="../scripts/index.js"></script>
+    <script src="../scripts/postlist.js"></script>
 </body>
 
 </html>
