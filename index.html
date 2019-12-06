@@ -26,10 +26,10 @@
     </div> 
     
     
-    <!-- The Modal -->
+    <!-- The Signup Modal -->
     <div id="signup-modal" class="modal">
       <!-- Modal content -->
-      <div class="modal-content">
+      <div class="signup-modal-content">
         <div class="modal-header">
           <span class="close">&times;</span>
           <h2>Get Started</h2>
@@ -39,18 +39,42 @@
           <form>
             <label class="label-text">Name</label>
             <input type="text" placeholder="Enter your name" required>
-              <label class="label-text">Username</label>
-              <input type="text" placeholder="Enter your Usename" required>
-              <label class="label-text">Password</label>
-              <input type="password" placeholder="Enter your password" required>
-              <label class="label-text">Confirm Password</label>
-              <input type="password" placeholder="Re-enter your password" required>
-              <input class="signup-btn" type="submit" value="Sign Up">
-            </form>  
-          </div>
+            <label class="label-text">Username</label>
+            <input type="text" placeholder="Enter your Usename" required>
+            <label class="label-text">Password</label>
+            <input type="password" placeholder="Enter your password" required>
+            <label class="label-text">Confirm Password</label>
+            <input type="password" placeholder="Re-enter your password" required>
+            <input class="btn" type="submit" value="Sign Up">
+          </form>  
+         </div>
         </div>
       </div>
-    
+
+
+      <!-- The Signin Modal -->
+    <div id="signin-modal" class="modal">
+      <!-- Modal content -->
+      <div class="signin-modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Welcome Back</h2>
+          <hr>
+        </div>  
+        <div class="container">
+          <form>
+            <label class="label-text">Username</label>
+            <input type="text" placeholder="Enter your Usename" required>
+            <label class="label-text">Password</label>
+            <input type="text" placeholder="Enter your Password" required>
+            <input class="btn" type="submit" value="Sign In">
+          </form>  
+        </div>
+        <div class="footer">
+          <span id="a">Not a Member?</span> <span id="b">Sign Up</span>
+        </div>
+      </div>
+    </div>
 
     <script src="scripts/common.js"></script>   
 </body>
