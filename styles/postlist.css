@@ -3,5 +3,73 @@ body{
 }
 
 #desc{
-    color: blueviolet;
+    color: purple;
 }
+
+.post-block{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 30px;
+ }
+
+.post-card{
+    border-radius:5px;
+    margin:10px 0;
+    width: 40%;
+    height: 50%;
+    margin : 25px 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color:whitesmoke;
+}
+
+.author{
+    background-color: white;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;  
+    color: gray;
+    font-size: large;
+    padding: 35px 0px ;
+    font-weight: bold;
+}
+
+.post-content{
+    margin: 5px 10px;
+    background-color:whitesmoke;
+}
+
+.post-description{
+    overflow: hidden;
+    white-space: normal;
+    height: 3.6em;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+}
+
+.post-title{
+    color: gray;
+    font-size: large;
+}
+
+p{
+    margin: 10px 10px 0px 10px; 
+    vertical-align: middle;
+}
+
+span{
+    text-align: end;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 10px;
+    cursor: pointer;
+    float: right;
+    color: darkslategrey;
+}
+
