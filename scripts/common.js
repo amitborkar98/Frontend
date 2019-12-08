@@ -28,7 +28,7 @@ signin_close.onclick = function() {
 
 var hyperlink = document.getElementById("b");
 
-//when the user clicks of sign up hyperlink, close the sigin modal and opens the signup modal
+//when the user clicks on sign up hyperlink, close the sigin modal and opens the signup modal
 hyperlink.onclick = function() {
   signinModal.style.display = "none";
   signupModal.style.display = "block";

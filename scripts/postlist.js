@@ -11,7 +11,7 @@ function del(id) {
     } 
   }
 
-//after clicking the no button, same is displayed without being refreshed
+//after clicking the no button, same page is displayed without being refreshed
 var no = document.getElementById("no");
 no.onclick = function() {
     deleteModal.style.display = "none";
