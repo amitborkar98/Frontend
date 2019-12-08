@@ -27,6 +27,7 @@ body{
     display: flex;
     flex-direction: row;
     background-color:whitesmoke;
+    
 }
 
 .author{
@@ -73,3 +74,49 @@ span{
     color: darkslategrey;
 }
 
+.delete-modal-content{
+    padding: 20px 20px;
+    border: 1px solid #888;
+    width: 20%; 
+    height: 20%;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    justify-content: center;
+}
+
+.delete-buttons{
+    margin-top: 30px;
+}
+
+#yes{
+    width: 90px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 90%;
+    background:green;
+    color: #fff;
+    justify-content: flex-start;
+    margin-top: 40px;
+    margin-right: 60px;
+}
+
+#no{
+    width: 90px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 90%;
+    background:red;
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 60px;
+    
+}
+
+#ques{
+    margin: 0px 15px;
+}
