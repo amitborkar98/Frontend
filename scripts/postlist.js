@@ -28,3 +28,6 @@ function removeShadow(id){
   var post = document.getElementById(id);
   post.style.boxShadow = "0px 0px";
   }
+
+
+  

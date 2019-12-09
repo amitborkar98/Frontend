@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="../fonts/css/font-awesome.min.css">
         <link rel="stylesheet" href="../styles/common.css">
         <link rel="stylesheet" href="../styles/post.css">
         <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
@@ -15,14 +16,38 @@
             <p id="desc" class="description">Explore, Imagine, Create</p>
         </div>
 
-        
+        <div class="post">
+            <div class="post-title">
+                <p>Everything you should know about ‘module’ & ‘require’ in Node.js</p>
+            </div>
+            <div class="post-auth">
+                <button id="edit" class="fa fa-pencil-square" aria-hidden="true">  Edit</button>
+                <p id="auth">Srishti Gupta</p>
+            </div>
+            <p id=description> 
+                Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node, and you can say that you’ve created a module
+                named xyz.
+            </p>
+            <button id="like" class="fa fa-thumbs-up" aria-hidden="true">  Like</button>
+            <p id="like-desc">
+                    Be the first one to like this!
+            </p>
+            <div class="comment-area">
+                <textarea id="userComments" rows="5" cols="115" placeholder="Leave a comment..." required></textarea>
+                <input id="comment-button"  onclick="addComments(userComments)" type="button" value="Comment">
+            </div>
+            <p id="comment-desc">
+                All comments
+            </p>
+            <div id="comments">
 
+            </div>
+    
 
-
-
+        </div>
 
         <!-- The Signup Modal -->
-    <div id="signup-modal" class="modal">
+         <div id="signup-modal" class="modal">
             <!-- Modal content -->
             <div class="signup-modal-content">
               <div class="modal-header">
