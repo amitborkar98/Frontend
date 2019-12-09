@@ -5,7 +5,7 @@ function del(id) {
     deleteModal.style.display = "block";  
     var yes = document.getElementById("yes");
     yes.onclick = function() {
-    var post=document.getElementById(id);
+    var post=document.getElementById(id.id);
     post.remove();
     deleteModal.style.display = "none";
     } 
@@ -19,13 +19,13 @@ no.onclick = function() {
 
 //function to display the box shadow over post on mouseover event
 function boxShadow(id){
-  var post = document.getElementById(id);
+  var post = document.getElementById(id.id);
   post.style.boxShadow = "2px 20px lightgray";
   }
 
 //function to remove box shadow of post on mouseout event
 function removeShadow(id){
-  var post = document.getElementById(id);
+  var post = document.getElementById(id.id);
   post.style.boxShadow = "0px 0px";
   }
 
