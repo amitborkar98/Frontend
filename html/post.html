@@ -16,34 +16,31 @@
             <p id="desc" class="description">Explore, Imagine, Create</p>
         </div>
 
+        <!--The content of the post starts here -->
         <div class="post">
             <div class="post-title">
                 <p id="post-title-content">Everything you should know about ‘module’ & ‘require’ in Node.js</p>
             </div>
             <div class="post-auth">
-                <button id="edit"><i class="fa fa-pencil-square"> Edit </i></button>
-                <p id="auth">Srishti Gupta</p>
+              <button id="edit"><i class="fa fa-pencil-square"> Edit </i></button>
+              <p id="auth">Srishti Gupta</p>
             </div>
-            <div class="uu">
-              <p id=description> 
-                  Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node, and you can say that you’ve created a module
-                  named xyz.
-              </p>
-            </div>
+            <p id=description> 
+              Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node, and you can say that you’ve created a module
+              named xyz.
+            </p>     
             <button id="like"  onclick="postLiked()"><i class="fa fa-thumbs-up"> Like</i></button>
-            <p id="like-desc">
-                    Be the first one to like this!
-            </p>
+            <p id="like-desc">  Be the first one to like this!</p>
             <div class="comment-area">
-                <textarea id="userComments" rows="5" cols="115" placeholder="Leave a comment..." required></textarea>
-                <input id="comment-button"  onclick="addComments(userComments)" type="button" value="Comment">
+              <textarea id="userComments" rows="5" cols="115" placeholder="Leave a comment..." required></textarea>
+              <input id="comment-button"  onclick="addComments(userComments)" type="button" value="Comment">
             </div>
             <p id="comment-desc">
-                All comments
+              All comments
             </p>
+            <!--Portion for the comment area of the post-->
             <div id="comments">
             </div>
-    
         </div>
 
         <!-- The Signup Modal -->

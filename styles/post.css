@@ -1,6 +1,6 @@
 #desc{
     color: purple;
-}
+    }
 
 .post-title{
     text-align: center;
@@ -8,8 +8,7 @@
     font-weight: bolder;
     margin-left: 40px;
     margin-right: 40px;
-    
-}
+    }
 
 #edit{
     width: 90px;
@@ -20,23 +19,21 @@
     background:  crimson;
     color: #fff;
     float: right;                  
-    
-}
+    }
 
 .post-auth{
     margin : 20px 40px;
-}
+    }
 
 #auth{
     margin-top: 10px;
     font-size: 125%;
     color: gray;
-}
+    }
 
 #description{
     margin: 40px 40px;
-   
-}
+    }
 
 #like{
     width: 90px;
@@ -47,16 +44,16 @@
     background:  crimson;
     color: #fff;                 
     margin-left: 40px;
-}
+    }
 
 #like-desc{
     margin :10px 40px;
     color: darkslategray;
-}
+    }
 
 textarea{
     margin: 10px 40px ;
-}
+    }
 
 #comment-button{
     width: 90px;
@@ -68,7 +65,7 @@ textarea{
     color: #fff;                 
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 40px;
-}
+    }
 
 .comment-area{
     display: flex;
@@ -76,29 +73,32 @@ textarea{
     justify-content: flex-start;
     align-content: flex-start;
     align-items: flex-start;
-}
+    }
 
 #comment-desc{
     font-size: 120%;
     font-weight: bolder;
     margin-left: 40px;
-}
+    }
 
 #comments{
     margin: 20px 40px;
     width: 55%;
     background-color: grey;
-
-}
+    }
 
 .comment-text{
     padding: 20px;
     color: black;
     margin: 10px 10px;
     background-color: white;
-}
+    }
 
-#vvv{
+#text1{
     font-weight: bolder;
     border: none;
-}
+    }
+
+#text2{
+    border: none;
+    }

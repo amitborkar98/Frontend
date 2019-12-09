@@ -12,7 +12,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     margin: 20px 30px;
- }
+    }  
 
 .post-card{
     border-radius:5px;
@@ -27,8 +27,7 @@ body{
     display: flex;
     flex-direction: row;
     background-color:whitesmoke;
-    
-}
+    }
 
 .author{
     background-color: white;
@@ -39,12 +38,12 @@ body{
     font-size: large;
     padding: 35px 0px ;
     font-weight: bold;
-}
+    }
 
 .post-content{
     margin: 5px 10px;
     background-color:whitesmoke;
-}
+    }
 
 .post-description{
     overflow: hidden;
@@ -52,17 +51,17 @@ body{
     height: 3.6em;
     text-overflow: ellipsis;
     margin-bottom: 10px;
-}
+    }
 
 .post-title{
     color: gray;
     font-size: large;
-}
+    }
 
 p{
     margin: 10px 10px 0px 10px; 
     vertical-align: middle;
-}
+    }
 
 span{
     text-align: end;
@@ -72,7 +71,7 @@ span{
     cursor: pointer;
     float: right;
     color: darkslategrey;
-}
+    }
 
 .delete-modal-content{
     padding: 20px 20px;
@@ -85,11 +84,11 @@ span{
     position: absolute;
     transform: translateX(-50%) translateY(-50%);
     justify-content: center;
-}
+    }
 
 .delete-buttons{
     margin-top: 30px;
-}
+    }
 
 #yes{
     width: 90px;
@@ -102,7 +101,7 @@ span{
     justify-content: flex-start;
     margin-top: 40px;
     margin-right: 60px;
-}
+    }
 
 #no{
     width: 90px;
@@ -114,8 +113,7 @@ span{
     color: #fff;
     margin-top: 40px;
     margin-left: 60px;
-    
-}
+    }
 
 #ques{
     margin: 0px 15px;
