@@ -1,10 +1,10 @@
 body{
     background-color: #ffeedd;
-}
+    }
 
 #desc{
     color: purple;
-}
+    }
 
 .post-block{
     display:flex;
@@ -16,10 +16,9 @@ body{
 
 .post-card{
     border-radius:5px;
-    margin:10px 0;
     width: 40%;
     height: 50%;
-    margin : 25px 40px;
+    margin : 25px 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -74,10 +73,10 @@ span{
     }
 
 .delete-modal-content{
-    padding: 20px 20px;
+    padding: 30px 60px;
     border: 1px solid #888;
     width: 20%; 
-    height: 20%;
+    height: 15%;
     background-color: #fff;
     top: 50%;
     left: 50%;
@@ -99,7 +98,6 @@ span{
     background:green;
     color: #fff;
     justify-content: flex-start;
-    margin-top: 40px;
     margin-right: 60px;
     }
 
@@ -111,10 +109,9 @@ span{
     font-size: 90%;
     background:red;
     color: #fff;
-    margin-top: 40px;
     margin-left: 60px;
     }
 
 #ques{
     margin: 0px 15px;
-}
+    }

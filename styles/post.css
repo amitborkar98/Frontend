@@ -18,7 +18,9 @@
     font-size: 90%;
     background:  crimson;
     color: #fff;
-    float: right;                  
+    float: right; 
+    margin-left: 85%;    
+    margin-right: 0px;             
     }
 
 .post-auth{
@@ -26,9 +28,9 @@
     }
 
 #auth{
-    margin-top: 10px;
     font-size: 125%;
     color: gray;
+    font-weight: bold;
     }
 
 #description{

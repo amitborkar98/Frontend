@@ -19,8 +19,8 @@ edit.onclick = function(){
     //click the button again to save the edited content 
     edit.onclick =function(){
         //updates value of title and description of the post
-        title.innerHTML = '<p>' +'UPDATED :'+ text1.value +'</p>' ;
-        description.innerHTML = text2.value; 
+        title.innerHTML = '<p>' +'UPDATED: '+ text1.value +'</p>' ;
+        description.innerHTML = 'UPDATED: ' + '<br>' + text2.value; 
         //removing the border
         description.style.borderStyle = "";
         description.style.borderColor = "";
