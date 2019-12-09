@@ -8,20 +8,28 @@ edit.onclick = function(){
     title.style.borderColor="pink";
     title.style.borderStyle="solid";
     edit.innerHTML=" Save";
-    edit.onclick = function(){
+    edit.className="fa fa-floppy-o";
+    
+    
+    title.innerHTML= '<textarea cols="170" rows="5" id="text1">'+document.getElementById("post-title-content").innerHTML+'</textarea>';
+    description.innerHTML = '<textarea cols="170" rows="10" id="text2">'+description.innerHTML+'</textarea>';
+    edit.onclick =function(){
+        title.innerHTML= '<p>' +'UPDATED :'+ text1.value +'</p>' ;
+        description.innerHTML = text2.value; 
         description.style.borderStyle = "";
         description.style.borderColor="";
         title.style.borderColor="";
         title.style.borderStyle="";
-        edit.value=edit.defaultValue;
-    }
+        edit.innerHTML=" Edit";
+        edit.className="fa fa-pencil-square";
+        }
 }
 
 function addComments(id){
     var comment = id.value +'<br>';
     var textarea = document.getElementById('userComments');
     document.getElementById('comments').style.padding="10px";
-    document.getElementById('comments').innerHTML += '<p class="comment-text">'+comment+'</p>';          
+    document.getElementById('comments').innerHTML = '<p class="comment-text">'+comment+'</p>' + document.getElementById('comments').innerHTML;          
     textarea.value=textarea.defaultValue;   
 }
 
